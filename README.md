@@ -8,6 +8,7 @@
  
  Author: Jack Liu (Liu Jianqiu 秋)<br>
  Email: ceophp@163.com<br>
+ QQ: 1099729311 404691073(work used)
  Created Init By Date: 2016-03-18<br>
 
 ## 【主要用途】##
@@ -40,6 +41,6 @@
    增加基本运维脚本操作log日志和错误日志跟踪<br>
  
  
-    
+（平时工作比较忙，会抽空闲时间更新，邮箱或qq随时交流）
 
 
