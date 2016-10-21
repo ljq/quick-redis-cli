@@ -3,14 +3,14 @@
 #-----------------------------------------------------
 # 通用redis-cli终端运维管理快捷脚本 Version 1.0.0 
 # File Name:	shortcut-redis-cli.sh
-# Copyright:	2016 Jack Liu (Liu Jianqiu 秋)
+# Copyright:	2016 Jack Liu (Liu Jianqiu 刘建秋)
 # License:	MIT
 # Version:	Version 1.0.0
 # 
 #
 #  主要用途：
 #　	不同运维场景快捷使用redis-cli终端
-# Author: Jack Liu (Liu Jianqiu 秋)
+# Author: Jack Liu (Liu Jianqiu 刘建秋)
 # Email: ceophp@163.com
 # Created Init By Date: 2016-03-18
 #-----------------------------------------------------
