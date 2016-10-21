@@ -1,6 +1,6 @@
 ### shortcut-redis-cli ###
 
- ## 通用redis-cli终端运维管理快捷脚本 Version 1.0.0 ##
+ # 通用redis-cli终端运维管理快捷脚本 Version 1.0.0 #
  ( 脚本最后更新时间:2016-10-21 )<br>
  File Name:    shortcut-redis-cli.sh <br>
  Copyright:    2016 Jack Liu (Liu Jianqiu 秋)<br>
@@ -12,10 +12,10 @@
  QQ: 1099729311 404691073(work used)
  Created Init By Date: 2016-03-18<br>
 
- ## 【主要用途】 ##
+ # 【主要用途】 #
    不同运维场景下快捷使用redis-cli终端连接
 
- ## 【免责声明】 ##
+ # 【免责声明】 #
  如果对脚本不熟悉，请勿直接在生产服务器操作。待测试环境确认无误后再使用！<br>
  脚本不作代码混淆,根据自身业务场景自由扩展，测试无误后方可线上使用。<br>
 
