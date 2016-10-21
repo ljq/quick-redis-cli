@@ -63,7 +63,7 @@
 #HOST设置(否为空)(host set)
 redis_host="127.0.0.1"
 
-#redis端口号设置,连接remote远程IP必须设置目标端口(redis port)
+#redis端口号设置本机可设空或忽略, 连接remote远程IP必须设置目标端口(redis port)
 redis_port=6379
 
 ###redis (requirepass): auth身份验证密码设置(
