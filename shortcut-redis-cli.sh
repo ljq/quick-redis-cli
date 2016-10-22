@@ -6,8 +6,9 @@
 # Copyright:	2016 Jack Liu (Liu Jianqiu 刘建秋)
 # License:	MIT
 # Version:	Version 1.0.0
+# website:	https://github.com/ljqiu/shortcut-redis-cli
 # 
-#
+# 
 #  主要用途：
 #　	不同运维场景快捷使用redis-cli终端
 # Author: Jack Liu (Liu Jianqiu 刘建秋)
