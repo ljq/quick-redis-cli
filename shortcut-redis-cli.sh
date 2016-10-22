@@ -8,9 +8,6 @@
 # Version:	Version 1.0.0
 # website:	https://github.com/ljqiu/shortcut-redis-cli
 # 
-# 
-#  主要用途：
-#　	不同运维场景快捷使用redis-cli终端
 # Author: Jack Liu (Liu Jianqiu 刘建秋)
 # Email: ceophp@163.com
 # Created Init By Date: 2016-03-18
