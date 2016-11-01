@@ -36,9 +36,9 @@
 
 
 【目录结构】
-etc目录：<br />
-etc/doc 帮助文档<br />
-etc/server_list.conf 管理实例配置<br />
+<b>etc</b> 配置目录：<br />
+<b>etc/README</b> 帮助文档<br />
+<b>etc/server_list.conf</b> 管理实例配置<br />
 
 【vversion 1.1.0脚本帮助说明 ( Latest Update Date: 2016-10-21)】<br />
  文档最后更新时间(Document Latest Update Date): 2016-11-01<br /><br />
