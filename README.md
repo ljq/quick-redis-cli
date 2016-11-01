@@ -40,17 +40,15 @@
 <b>etc/README</b> 帮助文档<br />
 <b>etc/server_list.conf</b> 管理实例配置<br />
 
-【vversion 1.1.0脚本帮助说明 ( Latest Update Date: 2016-10-21)】<br />
- 文档最后更新时间(Document Latest Update Date): 2016-11-01<br /><br />
+
+【version 1.1.0脚本帮助说明 ( Latest Update Date: 2016-10-21)】<br />
+ 文档最后更新时间(Document Latest Update Date): 2016-11-01<br />
 
 【脚本参数】<br />
-        -v      	: 查看脚本当前版本。<br /><br />
-
-        -help   	: 查看帮助文档。<br /><br />
-
-        -list   	: 查看可管理的实例列表,根据编号操作指定的redis实例。<br /><br />
-	
-	-c [Number]	: 根据编号快速选择操作的实例。<br /><br />
+-v      	: 查看脚本当前版本。<br />
+-help   	: 查看帮助文档。<br />
+-list   	: 查看可管理的实例列表,根据编号操作指定的redis实例。<br />
+-c [Number]	: 根据编号快速选择操作的实例。<br />
 
         
 【主要用途】<br />
