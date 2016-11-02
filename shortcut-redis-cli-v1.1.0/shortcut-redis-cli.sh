@@ -70,7 +70,7 @@ msg_conf=(
 "Warnning(HOST:REDIS_HOST)：redis验证密码未设置，如果服务器IP端口暴露在公网，请及时设置高强度redis身份验证密码！"
 "Warnning(HOST:REDIS_HOST)：redis密码长度设置过于简单，设置长度范围介于(${pass_min_length}-${pass_max_length})之间!"
 "Warnning(HOST:REDIS_HOST)：操作已被终止！"
-"请选择要操作的实例编号? (编号范围:0-TOTAL_SERVER_LIST, 输入no直接退出)"
+": 请选择要操作的实例编号? (编号范围:0-TOTAL_SERVER_LIST, 输入no直接退出)"
 "输入编号范围不合法！"
 "未指定参数值！"
 "警告：传入参数\" INPUT \"值有误或暂不支持！请参阅帮助文档。"
@@ -92,7 +92,7 @@ case ${argv_1} in
 		exit
 	;;
         "-list"):
-		server_list=(`cat "${server_list_conf}" | sed -e '/^$/d'`)
+		server_list=(`cat "${server_list_conf}" | sed -e '/^$/d' | sed -e '/^#/d'`)
 		echo -e "+--------------------------- (Redis实例管理列表管理) ---------------------------+"
 		echo -e "编号(No) IP实例\t\t 端口(port)\t 密码(requirepass)"
 		total_server_list=${#server_list[@]}
@@ -152,9 +152,12 @@ case ${argv_1} in
                 redis_requirepas=${list_item_no[2]}
 	;;
 	*):
-		echo -e `cat ${shortcut_doc} | awk '{printf $0}'`
-		echo -e ${msg_conf[9]//"INPUT"/${1}}"\n\n"
-        	exit
+		if [ "${1}" ]
+		then
+			echo -e `cat ${shortcut_doc} | awk '{printf $0}'`
+			echo -e ${msg_conf[9]//"INPUT"/${1}}"\n\n"
+        		exit
+		fi
 	;;
 esac
 
