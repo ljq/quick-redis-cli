@@ -64,12 +64,12 @@ shortcut_doc=${shortcut_conf}/README
 
 #终端反馈标识设置
 msg_conf=(
-"Warnning(HOST:REDIS_HOST)：远程IP服务器管理必须设置端口号！"
-"Warnning(HOST:REDIS_HOST)：redis-cli终端命令文件不存在，请确认文件所在路径后修改为实际所在路径！"
+"Warning(HOST:REDIS_HOST)：远程IP服务器管理必须设置端口号！"
+"Warning(HOST:REDIS_HOST)：redis-cli终端命令文件不存在，请确认文件所在路径后修改为实际所在路径！"
 "Notice(HOST:REDIS_HOST)检测到当前redis连接端口号(Port)设置为默认:6379，生产服务器使用默认端口暴露在公网极容易被扫描攻击，建议修改为其他端口号！"
-"Warnning(HOST:REDIS_HOST)：redis验证密码未设置，如果服务器IP端口暴露在公网，请及时设置高强度redis身份验证密码！"
-"Warnning(HOST:REDIS_HOST)：redis密码长度设置过于简单，设置长度范围介于(${pass_min_length}-${pass_max_length})之间!"
-"Warnning(HOST:REDIS_HOST)：操作已被终止！"
+"Warning(HOST:REDIS_HOST)：redis验证密码未设置，如果服务器IP端口暴露在公网，请及时设置高强度redis身份验证密码！"
+"Warning(HOST:REDIS_HOST)：redis密码长度设置过于简单，设置长度范围介于(${pass_min_length}-${pass_max_length})之间!"
+"Warning(HOST:REDIS_HOST)：操作已被终止！"
 ": 请选择要操作的实例编号? (编号范围:0-TOTAL_SERVER_LIST, 输入no直接退出)"
 "输入编号范围不合法！"
 "未指定参数值！"
