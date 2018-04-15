@@ -1,8 +1,8 @@
-### shortcut-redis-cli ###
+### quick-redis-cli ###
 
  通用redis-cli终端运维管理快捷脚本 Version 1.1.0<br>
  ( 脚本最后更新时间:2016-10-21 )<br>
- File Name:    shortcut-redis-cli.sh <br>
+ File Name:    quick-redis-cli.sh <br>
  Copyright:    2016 Jack Liu (Liu Jianqiu 秋)<br>
  License:      MIT<br>
  Version:      Version 1.1.0<br>
