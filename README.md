@@ -1,5 +1,7 @@
 ### quick-redis-cli ###
 
+[简体中文](README.zh-CN.md)  
+
  Universal redis-cli terminal operation and management shortcut script Version 1.1.0<br>
  (Script Last updated: 2016-10-21) <br>
  File Name: quick-redis-cli.sh <br>
